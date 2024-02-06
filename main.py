@@ -1,5 +1,10 @@
 #REMOVE PASS AND FIX THIS FUNCTION
 def anagram(word1, word2):
+    seperator = ""
+    word1 = word1.split()
+    word1 = seperator.join(word1)
+    word2 = word2.split()
+    word2 = seperator.join(word2)
     if len(word1) != 0 and len(word2) != 0:
         if len(word1) == len(word2):
             word1 = word1.lower()
